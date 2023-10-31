@@ -13,7 +13,7 @@ public static class patch_BotlabUtilities
     [MonoModReplace]
     static patch_BotlabUtilities()
     {
-        patch_BotlabUtilities.decimalDigits = 7;
+        patch_BotlabUtilities.decimalDigits = 5;
     }
     private static int decimalDigits;
 }
